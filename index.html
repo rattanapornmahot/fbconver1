@@ -65,11 +65,9 @@ src="https://www.facebook.com/tr?id=349845789474830&ev=PageView&noscript=1"
 
 
 
-		<section class="">
-			<form accept-charset="UTF-8" action="" method="POST">
-			<input typr="text" name="name">
-			<input type="text" name="mobile">
-				<button type="submit">SEND</button>
+		<section >
+		
+				<button onclick="onclick()">Test Pixel </button>
 		</section>
 
 		<!-- Highlights -->
@@ -238,6 +236,12 @@ src="https://www.facebook.com/tr?id=349845789474830&ev=PageView&noscript=1"
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				function onclick(){
+					
+					fbq('track','Lead');
+				}
+			</script>
 
 	</body>
 </html>
